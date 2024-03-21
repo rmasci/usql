@@ -12,8 +12,8 @@ import (
 
 	dt "github.com/ory/dockertest/v3"
 	dc "github.com/ory/dockertest/v3/docker"
-	"github.com/xo/usql/drivers/metadata"
-	"github.com/xo/usql/drivers/sqlserver"
+	"github.com/rmasci/usql/drivers/metadata"
+	"github.com/rmasci/usql/drivers/sqlserver"
 )
 
 type Database struct {

@@ -17,11 +17,11 @@ import (
 
 	"github.com/lib/pq" // DRIVER
 	"github.com/xo/dburl"
-	"github.com/xo/usql/drivers"
-	"github.com/xo/usql/drivers/metadata"
-	pgmeta "github.com/xo/usql/drivers/metadata/postgres"
-	"github.com/xo/usql/env"
-	"github.com/xo/usql/text"
+	"github.com/rmasci/usql/drivers"
+	"github.com/rmasci/usql/drivers/metadata"
+	pgmeta "github.com/rmasci/usql/drivers/metadata/postgres"
+	"github.com/rmasci/usql/env"
+	"github.com/rmasci/usql/text"
 )
 
 func init() {

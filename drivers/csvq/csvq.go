@@ -12,7 +12,7 @@ import (
 	"github.com/mithrandie/csvq-driver" // DRIVER
 	"github.com/mithrandie/csvq/lib/query"
 	"github.com/xo/dburl"
-	"github.com/xo/usql/drivers"
+	"github.com/rmasci/usql/drivers"
 )
 
 func init() {

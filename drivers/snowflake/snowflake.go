@@ -9,10 +9,10 @@ import (
 
 	"github.com/snowflakedb/gosnowflake" // DRIVER
 	"github.com/xo/tblfmt"
-	"github.com/xo/usql/drivers"
-	"github.com/xo/usql/drivers/metadata"
-	infos "github.com/xo/usql/drivers/metadata/informationschema"
-	"github.com/xo/usql/env"
+	"github.com/rmasci/usql/drivers"
+	"github.com/rmasci/usql/drivers/metadata"
+	infos "github.com/rmasci/usql/drivers/metadata/informationschema"
+	"github.com/rmasci/usql/env"
 )
 
 func init() {

@@ -275,7 +275,7 @@ func writeInternal(wd string, drivers ...map[string]DriverInfo) error {
 			panic(v.Tag)
 		}
 		tags += " && !no_" + v.Tag
-		buf, err := format.Source([]byte(fmt.Sprintf(internalTagGo, tags, "github.com/xo/usql/drivers/"+v.Tag, v.Desc)))
+		buf, err := format.Source([]byte(fmt.Sprintf(internalTagGo, tags, "github.com/rmasci/usql/drivers/"+v.Tag, v.Desc)))
 		if err != nil {
 			return err
 		}

@@ -11,7 +11,7 @@ import (
 
 	"github.com/alexbrainman/odbc" // DRIVER
 	"github.com/xo/dburl"
-	"github.com/xo/usql/drivers"
+	"github.com/rmasci/usql/drivers"
 )
 
 func init() {

@@ -15,9 +15,9 @@ import (
 
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/xo/dburl"
-	"github.com/xo/usql/drivers"
-	"github.com/xo/usql/env"
-	"github.com/xo/usql/text"
+	"github.com/rmasci/usql/drivers"
+	"github.com/rmasci/usql/env"
+	"github.com/rmasci/usql/text"
 )
 
 // Cmd is a command implementation.

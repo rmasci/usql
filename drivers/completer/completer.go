@@ -11,9 +11,9 @@ import (
 	"unicode"
 
 	"github.com/gohxs/readline"
-	"github.com/xo/usql/drivers/metadata"
-	"github.com/xo/usql/env"
-	"github.com/xo/usql/text"
+	"github.com/rmasci/usql/drivers/metadata"
+	"github.com/rmasci/usql/env"
+	"github.com/rmasci/usql/text"
 )
 
 const (

@@ -13,12 +13,12 @@ import (
 	"strings"
 
 	"github.com/mattn/go-isatty"
-	"github.com/xo/usql/drivers"
-	"github.com/xo/usql/env"
-	"github.com/xo/usql/handler"
-	"github.com/xo/usql/internal"
-	"github.com/xo/usql/rline"
-	"github.com/xo/usql/text"
+	"github.com/rmasci/usql/drivers"
+	"github.com/rmasci/usql/env"
+	"github.com/rmasci/usql/handler"
+	"github.com/rmasci/usql/internal"
+	"github.com/rmasci/usql/rline"
+	"github.com/rmasci/usql/text"
 )
 
 func main() {
@@ -67,7 +67,7 @@ func main() {
 			if text.CommandVersion == "0.0.0-dev" || strings.Contains(text.CommandVersion, "-") {
 				rev = "master"
 			}
-			fmt.Fprintf(os.Stderr, "\ntry:\n\n  go install -tags %s github.com/xo/usql@%s\n\n", tag, rev)
+			fmt.Fprintf(os.Stderr, "\ntry:\n\n  go install -tags %s github.com/rmasci/usql@%s\n\n", tag, rev)
 		}
 		os.Exit(1)
 	}

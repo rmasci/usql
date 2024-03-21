@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/xo/dburl"
-	"github.com/xo/usql/text"
+	"github.com/rmasci/usql/text"
 )
 
 // ExtendedReader of all database metadata in a structured format.

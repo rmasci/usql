@@ -17,7 +17,7 @@ import (
 
 	"github.com/kenshaw/rasterm"
 	"github.com/xo/dburl/passfile"
-	"github.com/xo/usql/text"
+	"github.com/rmasci/usql/text"
 )
 
 // Getenv tries retrieving successive keys from os environment variables.

@@ -9,12 +9,12 @@ import (
 	"time"
 
 	"github.com/xo/dburl"
-	"github.com/xo/usql/drivers"
-	"github.com/xo/usql/drivers/metadata"
-	"github.com/xo/usql/env"
-	"github.com/xo/usql/rline"
-	"github.com/xo/usql/stmt"
-	"github.com/xo/usql/text"
+	"github.com/rmasci/usql/drivers"
+	"github.com/rmasci/usql/drivers/metadata"
+	"github.com/rmasci/usql/env"
+	"github.com/rmasci/usql/rline"
+	"github.com/rmasci/usql/stmt"
+	"github.com/rmasci/usql/text"
 )
 
 // Handler is the shared interface for a command handler.
